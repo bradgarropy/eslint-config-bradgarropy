@@ -2,7 +2,7 @@
 
 My personal [eslint][1] configuration.
 
-### 📦 Installation
+## 📦 Installation
 
 This package is hosted on [npm][2].  
 
@@ -14,7 +14,7 @@ npx install-peerdeps --dev eslint-config-bradgarropy
 
 > This installs peer dependencies automatically using [npx][3] and [install-peerdeps][4] so you don't have to!
 
-### ⚙ Usage
+## ⚙ Usage
 
 Create an `.eslintrc` file in the root of your project and tell it to extend the configuration.
 
@@ -26,7 +26,7 @@ Create an `.eslintrc` file in the root of your project and tell it to extend the
 
 > You can add more ESLint configuration options in this file if you want.
 
-### ❔ Questions
+## ❔ Questions
 
 If you have any trouble, definitely [open an issue][5] and I'll take a look.
 
