@@ -1,10 +1,11 @@
 # 💎 eslint-config-bradgarropy
+![npm][1]
 
-My personal [eslint][1] configuration.
+My personal [eslint][2] configuration.
 
 ## 📦 Installation
 
-This package is hosted on [npm][2].  
+This package is hosted on [npm][3].  
 
 Install the configuration and it's peer dependencies as a development dependency.
 
@@ -12,7 +13,7 @@ Install the configuration and it's peer dependencies as a development dependency
 npx install-peerdeps --dev eslint-config-bradgarropy
 ```
 
-> This installs peer dependencies automatically using [npx][3] and [install-peerdeps][4] so you don't have to!
+> This installs peer dependencies automatically using [npx][4] and [install-peerdeps][5] so you don't have to!
 
 ## ⚙ Usage
 
@@ -28,18 +29,19 @@ Create an `.eslintrc` file in the root of your project and tell it to extend the
 
 ## ❔ Questions
 
-If you have any trouble, definitely [open an issue][5] and I'll take a look.
+If you have any trouble, definitely [open an issue][6] and I'll take a look.
 
-Or you can consult the [ESLint Shareable Configs documentation][6].
+Or you can consult the [ESLint Shareable Configs documentation][7].
 
-And if all else fails, you can ask me directly on [Twitter][7] or my [AMA][8].
+And if all else fails, you can ask me directly on [Twitter][8] or my [AMA][9].
 
 
-[1]: https://eslint.org
-[2]: https://www.npmjs.com
-[3]: https://www.npmjs.com/package/npx
-[4]: https://www.npmjs.com/package/install-peerdeps
-[5]: https://github.com/bradgarropy/eslint-config-bradgarropy/issues
-[6]: https://eslint.org/docs/developer-guide/shareable-configs
-[7]: https://twitter.com/bradgarropy
-[8]: https://github.com/bradgarropy/ama
+[1]: https://img.shields.io/npm/v/eslint-config-bradgarropy.svg?color=FB3B49&style=flat-square
+[2]: https://eslint.org
+[3]: https://www.npmjs.com
+[4]: https://www.npmjs.com/package/npx
+[5]: https://www.npmjs.com/package/install-peerdeps
+[6]: https://github.com/bradgarropy/eslint-config-bradgarropy/issues
+[7]: https://eslint.org/docs/developer-guide/shareable-configs
+[8]: https://twitter.com/bradgarropy
+[9]: https://github.com/bradgarropy/ama
