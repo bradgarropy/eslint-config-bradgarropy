@@ -16,7 +16,7 @@ npx install-peerdeps --dev eslint-config-bradgarropy
 
 > This installs peer dependencies automatically using [npx][4] and [install-peerdeps][5] so you don't have to!
 
-## ⚙ Usage
+## 🥑 Usage
 
 Create an `.eslintrc` file in the root of your project and tell it to extend the configuration.
 
