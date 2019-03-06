@@ -1,11 +1,12 @@
 # 💎 eslint-config-bradgarropy
+
 ![npm][1]
 
 My personal [eslint][2] configuration.
 
 ## 📦 Installation
 
-This package is hosted on [npm][3].  
+This package is hosted on [npm][3].
 
 Install the configuration and it's peer dependencies as a development dependency.
 
@@ -35,10 +36,9 @@ Or you can consult the [ESLint Shareable Configs documentation][7].
 
 And if all else fails, you can ask me directly on [Twitter][8] or my [AMA][9].
 
-
 [1]: https://img.shields.io/npm/v/eslint-config-bradgarropy.svg?color=FB3B49&style=flat-square
 [2]: https://eslint.org
-[3]: https://www.npmjs.com
+[3]: https://www.npmjs.com/package/eslint-config-bradgarropy
 [4]: https://www.npmjs.com/package/npx
 [5]: https://www.npmjs.com/package/install-peerdeps
 [6]: https://github.com/bradgarropy/eslint-config-bradgarropy/issues
