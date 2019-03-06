@@ -5,15 +5,12 @@ module.exports = {
         jest: true,
         node: true,
     },
-    extends: [
-        "eslint:recommended",
-        "plugin:react/recommended",
-    ],
+    extends: ["eslint:recommended", "plugin:react/recommended"],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
         },
-        sourceType: "module"
+        sourceType: "module",
     },
     plugins: ["react"],
     parser: "babel-eslint",
@@ -22,57 +19,62 @@ module.exports = {
         "comma-spacing": [
             "error",
             {
-                "before": false,
-                "after": true,
+                before: false,
+                after: true,
             },
         ],
         "comma-style": ["error", "last"],
         "eol-last": ["error", "always"],
-        "eqeqeq": ["error", "always"],
+        eqeqeq: ["error", "always"],
         "function-paren-newline": ["error", "consistent"],
-        "indent": [
+        indent: [
             "error",
             4,
             {
-                "SwitchCase": 1,
+                SwitchCase: 1,
             },
         ],
         "no-mixed-spaces-and-tabs": ["error"],
         "no-unused-vars": [
             "error",
             {
-                "ignoreRestSiblings": true,
+                ignoreRestSiblings: true,
             },
         ],
         "object-curly-spacing": ["error", "never"],
         "object-curly-newline": [
             "error",
             {
-                "consistent": true,
+                consistent: true,
             },
         ],
         "object-property-newline": [
             "error",
             {
-                "allowAllPropertiesOnSameLine": true,
+                allowAllPropertiesOnSameLine: true,
             },
         ],
-        "semi": ["error", "never"],
+        semi: ["error", "never"],
         "semi-spacing": [
             "error",
             {
-                "before": false,
-                "after": true,
+                before: false,
+                after: true,
             },
         ],
         "semi-style": ["error", "last"],
         "space-before-function-paren": ["error", "never"],
-        "quotes": ["error", "double"],
+        quotes: ["error", "double"],
         "react/jsx-tag-spacing": [
             "error",
             {
-                "beforeSelfClosing": "never"
-            }
-        ]
+                beforeSelfClosing: "never",
+            },
+        ],
+    },
+    settings: {
+        react: {
+            version: "detect",
+        },
     },
 }
