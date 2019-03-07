@@ -65,6 +65,7 @@ module.exports = {
         "semi-style": ["error", "last"],
         "space-before-function-paren": ["error", "never"],
         quotes: ["error", "double"],
+        "quote-props": ["error", "consistent-as-needed"],
         "react/jsx-tag-spacing": [
             "error",
             {
