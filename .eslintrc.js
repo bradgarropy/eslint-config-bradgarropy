@@ -5,14 +5,18 @@ module.exports = {
         jest: true,
         node: true,
     },
-    extends: ["eslint:recommended", "plugin:react/recommended"],
+    extends: [
+        "eslint:recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:react/recommended",
+    ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
         },
         sourceType: "module",
     },
-    plugins: ["react"],
+    plugins: ["jsx-a11y", "react", "react-hooks"],
     parser: "babel-eslint",
     rules: {
         "comma-dangle": ["error", "always-multiline"],
@@ -72,6 +76,8 @@ module.exports = {
                 beforeSelfClosing: "never",
             },
         ],
+        "react-hooks/rules-of-hooks": ["error"],
+        "react-hooks/exhaustive-deps": ["error"],
     },
     settings: {
         react: {
