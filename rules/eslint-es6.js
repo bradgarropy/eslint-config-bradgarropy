@@ -1,3 +1,5 @@
 module.exports = {
-    rules: {},
+    rules: {
+        "prefer-const": ["error"],
+    },
 }
