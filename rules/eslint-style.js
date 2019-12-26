@@ -41,7 +41,12 @@ module.exports = {
             },
         ],
         "semi-style": ["error", "last"],
-        "space-before-function-paren": ["error", "never"],
+        "space-before-function-paren": [
+            "error",
+            {
+                asyncArrow: "always",
+            },
+        ],
         "quote-props": ["error", "consistent-as-needed"],
         "quotes": ["error", "double"],
     },
