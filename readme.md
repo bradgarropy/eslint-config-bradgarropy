@@ -4,7 +4,7 @@
     <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-bradgarropy.svg?color=FB3B49&style=flat-square">
 </a>
 
-My personal [eslint][1] configuration.
+_My personal [eslint][1] configuration._
 
 ## 📦 Installation
 
