@@ -4,6 +4,10 @@
     <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-bradgarropy.svg?color=FB3B49&style=flat-square">
 </a>
 
+<a href="https://www.npmjs.com/package/eslint-config-bradgarropy">
+    <img alt="npm" src="https://img.shields.io/npm/dt/eslint-config-bradgarropy?style=flat-square">
+</a>
+
 _My personal [eslint][1] configuration._
 
 ## 📦 Installation
