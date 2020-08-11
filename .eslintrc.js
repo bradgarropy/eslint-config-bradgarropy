@@ -17,6 +17,13 @@ module.exports = {
         "./rules/eslint-variables.js",
         "./rules/react.js",
         "./rules/react-hooks.js",
+        "./rules/svelte.js",
+    ],
+    overrides: [
+        {
+            files: ["*.svelte"],
+            processor: "svelte3/svelte3",
+        },
     ],
     parserOptions: {
         ecmaFeatures: {
@@ -24,7 +31,7 @@ module.exports = {
         },
         sourceType: "module",
     },
-    plugins: ["jsx-a11y", "react", "react-hooks"],
+    plugins: ["jsx-a11y", "react", "react-hooks", "svelte3"],
     parser: "babel-eslint",
     rules: {},
     settings: {
