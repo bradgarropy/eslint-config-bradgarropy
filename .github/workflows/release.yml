@@ -14,7 +14,7 @@ jobs:
             - name: "🟢 node"
               uses: actions/setup-node@v1.1.0
               with:
-                  node-version: 13
+                  version: 13
                   registry-url: https://registry.npmjs.org/
             - name: "📦 publish"
               run: npm publish
