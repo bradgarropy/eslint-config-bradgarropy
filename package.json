@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-bradgarropy",
-    "version": "1.3.1",
+    "version": "1.4.0",
     "description": "💎 eslint configuration",
     "keywords": [
         "eslint",
@@ -8,6 +8,7 @@
         "eslint-config",
         "prettier",
         "react",
+        "svelte",
         "a11y",
         "accessibility"
     ],
@@ -30,17 +31,20 @@
         "lint:fix": "eslint . --fix"
     },
     "peerDependencies": {
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.8.0",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.17.0",
-        "eslint-plugin-react-hooks": "^2.3.0"
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.6.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-react": "^7.20.5",
+        "eslint-plugin-react-hooks": "^4.0.8",
+        "eslint-plugin-svelte3": "^2.7.3"
     },
     "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.8.0",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.17.0",
-        "eslint-plugin-react-hooks": "^2.3.0"
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.6.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-react": "^7.20.5",
+        "eslint-plugin-react-hooks": "^4.0.8",
+        "eslint-plugin-svelte3": "^2.7.3",
+        "svelte": "^3.24.1"
     }
 }
