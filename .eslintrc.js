@@ -21,6 +21,10 @@ module.exports = {
     ],
     overrides: [
         {
+            files: ["*.ts", "*.tsx"],
+            extends: ["plugin:@typescript-eslint/recommended"],
+        },
+        {
             files: ["*.svelte"],
             processor: "svelte3/svelte3",
         },
@@ -31,8 +35,14 @@ module.exports = {
         },
         sourceType: "module",
     },
-    plugins: ["jsx-a11y", "react", "react-hooks", "svelte3"],
-    parser: "babel-eslint",
+    plugins: [
+        "jsx-a11y",
+        "react",
+        "react-hooks",
+        "svelte3",
+        "@typescript-eslint",
+    ],
+    parser: "@typescript-eslint/parser",
     rules: {},
     settings: {
         react: {
