@@ -3,8 +3,9 @@ module.exports = {
         "react/jsx-tag-spacing": [
             "error",
             {
-                beforeSelfClosing: "never",
+                beforeSelfClosing: "always",
             },
         ],
+        "react/react-in-jsx-scope": ["off"],
     },
 }
