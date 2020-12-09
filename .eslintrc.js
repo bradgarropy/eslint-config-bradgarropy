@@ -18,6 +18,7 @@ module.exports = {
         "./rules/react.js",
         "./rules/react-hooks.js",
         "./rules/svelte.js",
+        "prettier",
     ],
     overrides: [
         {
