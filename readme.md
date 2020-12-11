@@ -1,6 +1,8 @@
 # 💎 eslint-config-bradgarropy
 
-## This package is deprecated. Please use [@bradgarropy/eslint-config][eslint-config] instead.
+### _This package is deprecated. Please use [@bradgarropy/eslint-config][eslint-config] instead._
+
+---
 
 <a href="https://www.npmjs.com/package/eslint-config-bradgarropy">
     <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-bradgarropy.svg?color=FB3B49&style=flat-square">
